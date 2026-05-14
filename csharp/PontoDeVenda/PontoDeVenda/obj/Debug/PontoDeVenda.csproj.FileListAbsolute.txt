@@ -18,3 +18,4 @@ C:\dev\estudos\csharp\micro-projetos\csharp\PontoDeVenda\PontoDeVenda\obj\Debug\
 C:\dev\estudos\csharp\micro-projetos\csharp\PontoDeVenda\PontoDeVenda\obj\Debug\PontoDeVenda.csproj.CoreCompileInputs.cache
 C:\dev\estudos\csharp\micro-projetos\csharp\PontoDeVenda\PontoDeVenda\obj\Debug\PontoDeVenda.exe
 C:\dev\estudos\csharp\micro-projetos\csharp\PontoDeVenda\PontoDeVenda\obj\Debug\PontoDeVenda.pdb
+C:\dev\estudos\csharp\micro-projetos\csharp\PontoDeVenda\PontoDeVenda\obj\Debug\PontoDeVenda.FormCadProduto.resources

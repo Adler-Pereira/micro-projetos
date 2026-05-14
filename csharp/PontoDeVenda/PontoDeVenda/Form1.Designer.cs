@@ -35,12 +35,12 @@
             this.btEdiProduto = new System.Windows.Forms.Button();
             this.btEdiCliente = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btEdiCategoria = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.btCadCategoria = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.btCadVenda = new System.Windows.Forms.Button();
             this.btEdiVenda = new System.Windows.Forms.Button();
-            this.btCadCategoria = new System.Windows.Forms.Button();
-            this.btEdiCategoria = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -85,6 +85,7 @@
             this.btCadProduto.TabIndex = 5;
             this.btCadProduto.Text = "Cadastro";
             this.btCadProduto.UseVisualStyleBackColor = true;
+            this.btCadProduto.Click += new System.EventHandler(this.btCadProduto_Click);
             // 
             // btEdiProduto
             // 
@@ -117,6 +118,37 @@
             this.panel1.Size = new System.Drawing.Size(141, 452);
             this.panel1.TabIndex = 12;
             // 
+            // btEdiCategoria
+            // 
+            this.btEdiCategoria.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btEdiCategoria.Location = new System.Drawing.Point(0, 357);
+            this.btEdiCategoria.Name = "btEdiCategoria";
+            this.btEdiCategoria.Size = new System.Drawing.Size(141, 23);
+            this.btEdiCategoria.TabIndex = 3;
+            this.btEdiCategoria.Text = "Cadastro";
+            this.btEdiCategoria.UseVisualStyleBackColor = true;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label4.Location = new System.Drawing.Point(9, 332);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(57, 13);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "Categorias";
+            // 
+            // btCadCategoria
+            // 
+            this.btCadCategoria.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btCadCategoria.Location = new System.Drawing.Point(0, 377);
+            this.btCadCategoria.Name = "btCadCategoria";
+            this.btCadCategoria.Size = new System.Drawing.Size(141, 23);
+            this.btCadCategoria.TabIndex = 7;
+            this.btCadCategoria.Text = "Edição";
+            this.btCadCategoria.UseVisualStyleBackColor = true;
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -147,37 +179,6 @@
             this.btEdiVenda.TabIndex = 7;
             this.btEdiVenda.Text = "Edição";
             this.btEdiVenda.UseVisualStyleBackColor = true;
-            // 
-            // btCadCategoria
-            // 
-            this.btCadCategoria.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btCadCategoria.Location = new System.Drawing.Point(0, 377);
-            this.btCadCategoria.Name = "btCadCategoria";
-            this.btCadCategoria.Size = new System.Drawing.Size(141, 23);
-            this.btCadCategoria.TabIndex = 7;
-            this.btCadCategoria.Text = "Edição";
-            this.btCadCategoria.UseVisualStyleBackColor = true;
-            // 
-            // btEdiCategoria
-            // 
-            this.btEdiCategoria.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btEdiCategoria.Location = new System.Drawing.Point(0, 357);
-            this.btEdiCategoria.Name = "btEdiCategoria";
-            this.btEdiCategoria.Size = new System.Drawing.Size(141, 23);
-            this.btEdiCategoria.TabIndex = 3;
-            this.btEdiCategoria.Text = "Cadastro";
-            this.btEdiCategoria.UseVisualStyleBackColor = true;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label4.Location = new System.Drawing.Point(9, 332);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(57, 13);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "Categorias";
             // 
             // Form1
             // 
