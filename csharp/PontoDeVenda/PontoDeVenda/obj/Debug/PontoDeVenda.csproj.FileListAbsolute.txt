@@ -1,0 +1,10 @@
+C:\dev\estudos\csharp\PontoDeVenda\PontoDeVenda\bin\Debug\PontoDeVenda.exe.config
+C:\dev\estudos\csharp\PontoDeVenda\PontoDeVenda\bin\Debug\PontoDeVenda.exe
+C:\dev\estudos\csharp\PontoDeVenda\PontoDeVenda\bin\Debug\PontoDeVenda.pdb
+C:\dev\estudos\csharp\PontoDeVenda\PontoDeVenda\obj\Debug\PontoDeVenda.csproj.AssemblyReference.cache
+C:\dev\estudos\csharp\PontoDeVenda\PontoDeVenda\obj\Debug\PontoDeVenda.Form1.resources
+C:\dev\estudos\csharp\PontoDeVenda\PontoDeVenda\obj\Debug\PontoDeVenda.Properties.Resources.resources
+C:\dev\estudos\csharp\PontoDeVenda\PontoDeVenda\obj\Debug\PontoDeVenda.csproj.GenerateResource.cache
+C:\dev\estudos\csharp\PontoDeVenda\PontoDeVenda\obj\Debug\PontoDeVenda.csproj.CoreCompileInputs.cache
+C:\dev\estudos\csharp\PontoDeVenda\PontoDeVenda\obj\Debug\PontoDeVenda.exe
+C:\dev\estudos\csharp\PontoDeVenda\PontoDeVenda\obj\Debug\PontoDeVenda.pdb
