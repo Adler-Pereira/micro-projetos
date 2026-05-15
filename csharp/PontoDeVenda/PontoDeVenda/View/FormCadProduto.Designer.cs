@@ -38,9 +38,16 @@
             this.txtImgProduto = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.btConfCadastro = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btCancCadastro = new System.Windows.Forms.Button();
+            this.btImagem = new System.Windows.Forms.Button();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             ((System.ComponentModel.ISupportInitialize)(this.txtPrecoProduto)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgCadProduto)).BeginInit();
+            this.tabControl1.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -64,7 +71,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(410, 85);
+            this.label2.Location = new System.Drawing.Point(410, 96);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(38, 13);
             this.label2.TabIndex = 0;
@@ -73,7 +80,7 @@
             // txtPrecoProduto
             // 
             this.txtPrecoProduto.DecimalPlaces = 2;
-            this.txtPrecoProduto.Location = new System.Drawing.Point(413, 101);
+            this.txtPrecoProduto.Location = new System.Drawing.Point(413, 112);
             this.txtPrecoProduto.Maximum = new decimal(new int[] {
             50000,
             0,
@@ -85,10 +92,10 @@
             // 
             // txtDescProduto
             // 
-            this.txtDescProduto.Location = new System.Drawing.Point(413, 206);
+            this.txtDescProduto.Location = new System.Drawing.Point(413, 241);
             this.txtDescProduto.Multiline = true;
             this.txtDescProduto.Name = "txtDescProduto";
-            this.txtDescProduto.Size = new System.Drawing.Size(198, 91);
+            this.txtDescProduto.Size = new System.Drawing.Size(198, 53);
             this.txtDescProduto.TabIndex = 3;
             this.txtDescProduto.TextChanged += new System.EventHandler(this.txtDescProduto_TextChanged);
             // 
@@ -96,7 +103,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label3.Location = new System.Drawing.Point(410, 190);
+            this.label3.Location = new System.Drawing.Point(410, 225);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(58, 13);
             this.label3.TabIndex = 4;
@@ -107,15 +114,15 @@
             this.imgCadProduto.Location = new System.Drawing.Point(49, 37);
             this.imgCadProduto.Name = "imgCadProduto";
             this.imgCadProduto.Size = new System.Drawing.Size(297, 305);
-            this.imgCadProduto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.imgCadProduto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imgCadProduto.TabIndex = 5;
             this.imgCadProduto.TabStop = false;
             // 
             // txtImgProduto
             // 
-            this.txtImgProduto.Location = new System.Drawing.Point(413, 153);
+            this.txtImgProduto.Location = new System.Drawing.Point(0, 0);
             this.txtImgProduto.Name = "txtImgProduto";
-            this.txtImgProduto.Size = new System.Drawing.Size(198, 20);
+            this.txtImgProduto.Size = new System.Drawing.Size(192, 20);
             this.txtImgProduto.TabIndex = 7;
             this.txtImgProduto.TextChanged += new System.EventHandler(this.txtImgProduto_TextChanged);
             // 
@@ -123,11 +130,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label4.Location = new System.Drawing.Point(410, 136);
+            this.label4.Location = new System.Drawing.Point(410, 147);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(84, 13);
+            this.label4.Size = new System.Drawing.Size(47, 13);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Link da imagem:";
+            this.label4.Text = "Imagem:";
             // 
             // btConfCadastro
             // 
@@ -140,28 +147,76 @@
             this.btConfCadastro.UseVisualStyleBackColor = true;
             this.btConfCadastro.Click += new System.EventHandler(this.btConfCadastro_Click);
             // 
-            // button2
+            // btCancCadastro
             // 
-            this.button2.BackColor = System.Drawing.Color.Maroon;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button2.Location = new System.Drawing.Point(413, 318);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "Cancelar";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btCancCadastro.BackColor = System.Drawing.Color.Maroon;
+            this.btCancCadastro.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btCancCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btCancCadastro.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btCancCadastro.Location = new System.Drawing.Point(413, 318);
+            this.btCancCadastro.Name = "btCancCadastro";
+            this.btCancCadastro.Size = new System.Drawing.Size(75, 23);
+            this.btCancCadastro.TabIndex = 9;
+            this.btCancCadastro.Text = "Cancelar";
+            this.btCancCadastro.UseVisualStyleBackColor = false;
+            this.btCancCadastro.Click += new System.EventHandler(this.btCancCadastro_Click);
+            // 
+            // btImagem
+            // 
+            this.btImagem.AllowDrop = true;
+            this.btImagem.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btImagem.Location = new System.Drawing.Point(0, 0);
+            this.btImagem.Name = "btImagem";
+            this.btImagem.Size = new System.Drawing.Size(198, 23);
+            this.btImagem.TabIndex = 10;
+            this.btImagem.Text = "Anexar Imagem";
+            this.btImagem.UseVisualStyleBackColor = true;
+            this.btImagem.Click += new System.EventHandler(this.btImagem_Click);
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.AllowDrop = true;
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Location = new System.Drawing.Point(413, 163);
+            this.tabControl1.Multiline = true;
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(200, 46);
+            this.tabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
+            this.tabControl1.TabIndex = 11;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.txtImgProduto);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(192, 20);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "Link";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.btImagem);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(192, 20);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Anexo";
+            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // FormCadProduto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ClientSize = new System.Drawing.Size(665, 381);
-            this.Controls.Add(this.button2);
+            this.ClientSize = new System.Drawing.Size(664, 381);
+            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.btCancCadastro);
             this.Controls.Add(this.btConfCadastro);
-            this.Controls.Add(this.txtImgProduto);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.imgCadProduto);
             this.Controls.Add(this.label3);
@@ -175,6 +230,10 @@
             this.Text = "Cadastro de Produto";
             ((System.ComponentModel.ISupportInitialize)(this.txtPrecoProduto)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgCadProduto)).EndInit();
+            this.tabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -192,6 +251,10 @@
         private System.Windows.Forms.TextBox txtImgProduto;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btConfCadastro;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btCancCadastro;
+        private System.Windows.Forms.Button btImagem;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
     }
 }

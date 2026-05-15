@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PontoDeVenda.View;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,7 +13,7 @@ namespace PontoDeVenda
 {
     public partial class Form1 : Form
     {
-        private List<Produto> produtos = new List<Produto>();
+        public List<Produto> Produtos { get; private set; } = new List<Produto>();
         public Form1()
         {
             InitializeComponent();
@@ -26,7 +27,13 @@ namespace PontoDeVenda
 
         public void AdicionarProduto(Produto produto)
         {
-            produtos.Add(produto);
+            Produtos.Add(produto);
+        }
+
+        private void btEdiProduto_Click(object sender, EventArgs e)
+        {
+            FormEdiProduto formEdiProduto = new FormEdiProduto(this);
+            formEdiProduto.ShowDialog();
         }
     }
 }

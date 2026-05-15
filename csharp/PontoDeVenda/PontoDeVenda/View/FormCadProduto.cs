@@ -41,5 +41,22 @@ namespace PontoDeVenda
         {
             imgCadProduto.ImageLocation = txtImgProduto.Text;
         }
+
+        private void btImagem_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                string filePath = openFileDialog.FileName;
+
+                imgCadProduto.Image = new Bitmap(filePath);
+            }
+        }
+
+        private void btCancCadastro_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

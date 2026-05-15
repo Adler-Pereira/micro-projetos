@@ -96,6 +96,7 @@
             this.btEdiProduto.TabIndex = 6;
             this.btEdiProduto.Text = "Edição";
             this.btEdiProduto.UseVisualStyleBackColor = true;
+            this.btEdiProduto.Click += new System.EventHandler(this.btEdiProduto_Click);
             // 
             // btEdiCliente
             // 
