@@ -50,7 +50,7 @@ namespace PontoDeVenda
             {
                 string filePath = openFileDialog.FileName;
 
-                imgCadProduto.Image = new Bitmap(filePath);
+                imgCadProduto.ImageLocation = filePath;
             }
         }
 

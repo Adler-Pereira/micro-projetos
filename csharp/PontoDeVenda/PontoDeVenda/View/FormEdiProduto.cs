@@ -23,7 +23,11 @@ namespace PontoDeVenda.View
         {
             foreach (Produto produto in formPrincipal.Produtos)
             {
-                listBoxProduto.Items.Add(produto);
+                ListViewItem item = new ListViewItem(Convert.ToString(produto.Id));
+                item.SubItems.Add(produto.Nome);
+                item.SubItems.Add(produto.Descricao);
+
+                listViewProduto.Items.Add(item);
             }
         }
     }
