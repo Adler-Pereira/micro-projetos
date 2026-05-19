@@ -25,6 +25,7 @@ namespace PontoDeVenda.View
             {
                 ListViewItem item = new ListViewItem(Convert.ToString(produto.Id));
                 item.SubItems.Add(produto.Nome);
+                item.SubItems.Add(Convert.ToString(produto.Preco));
                 item.SubItems.Add(produto.Descricao);
 
                 listViewProduto.Items.Add(item);
