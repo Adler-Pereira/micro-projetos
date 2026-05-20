@@ -31,5 +31,12 @@ namespace PontoDeVenda.View
                 listViewProduto.Items.Add(item);
             }
         }
+
+        private void listViewProduto_DoubleClick(object sender, EventArgs e)
+        {
+            int indiceProduto = Convert.ToInt32(listViewProduto.FocusedItem.Text);
+            Produto prodSelecionado = formPrincipal.Produtos[indiceProduto - 1];
+            MessageBox.Show(Convert.ToString(prodSelecionado.Nome));
+        }
     }
 }

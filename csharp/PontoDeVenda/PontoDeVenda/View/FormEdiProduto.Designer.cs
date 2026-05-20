@@ -47,11 +47,13 @@
             this.listViewProduto.GridLines = true;
             this.listViewProduto.HideSelection = false;
             this.listViewProduto.Location = new System.Drawing.Point(0, 0);
+            this.listViewProduto.MultiSelect = false;
             this.listViewProduto.Name = "listViewProduto";
             this.listViewProduto.Size = new System.Drawing.Size(603, 368);
             this.listViewProduto.TabIndex = 1;
             this.listViewProduto.UseCompatibleStateImageBehavior = false;
             this.listViewProduto.View = System.Windows.Forms.View.Details;
+            this.listViewProduto.DoubleClick += new System.EventHandler(this.listViewProduto_DoubleClick);
             // 
             // colId
             // 
