@@ -13,30 +13,59 @@ namespace PontoDeVenda.View
     public partial class FormEdiProduto : Form
     {
         private Form1 formPrincipal;
-        public FormEdiProduto(Form1 formPrincipal)
+        private FormEdiListProduto formListProduto;
+        private string imagemProduto;
+        public FormEdiProduto(Form1 formPrincipal, FormEdiListProduto formListProduto)
         {
             InitializeComponent();
             this.formPrincipal = formPrincipal;
+            this.formListProduto = formListProduto;
+        }
+
+        private void btConfEdicao_Click(object sender, EventArgs e)
+        {
+
+            formListProduto.ProdSelecionado.Nome = txtNomeProduto.Text;
+            formListProduto.ProdSelecionado.Preco = txtPrecoProduto.Value;
+            formListProduto.ProdSelecionado.Imagem = imagemProduto;
+            formListProduto.ProdSelecionado.Descricao = txtDescProduto.Text;
+
+            formListProduto.CarregarPagina();
+            this.Close();
         }
 
         private void FormEdiProduto_Load(object sender, EventArgs e)
         {
-            foreach (Produto produto in formPrincipal.Produtos)
-            {
-                ListViewItem item = new ListViewItem(Convert.ToString(produto.Id));
-                item.SubItems.Add(produto.Nome);
-                item.SubItems.Add(Convert.ToString(produto.Preco));
-                item.SubItems.Add(produto.Descricao);
+            txtNomeProduto.Text = formListProduto.ProdSelecionado.Nome;
+            txtPrecoProduto.Value = formListProduto.ProdSelecionado.Preco;
+            txtImgProduto.Text = formListProduto.ProdSelecionado.Imagem;
+            txtDescProduto.Text = formListProduto.ProdSelecionado.Descricao;
 
-                listViewProduto.Items.Add(item);
-            }
+            imgEdiProduto.ImageLocation = formListProduto.ProdSelecionado.Imagem;
         }
 
-        private void listViewProduto_DoubleClick(object sender, EventArgs e)
+        private void btCancEdicao_Click(object sender, EventArgs e)
         {
-            int indiceProduto = Convert.ToInt32(listViewProduto.FocusedItem.Text);
-            Produto prodSelecionado = formPrincipal.Produtos[indiceProduto - 1];
-            MessageBox.Show(Convert.ToString(prodSelecionado.Nome));
+            this.Close();
+        }
+
+        private void txtImgProduto_TextChanged(object sender, EventArgs e)
+        {
+            imagemProduto = txtImgProduto.Text;
+            imgEdiProduto.ImageLocation = imagemProduto;
+        }
+
+        private void btImagem_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                string filePath = openFileDialog.FileName;
+
+                imagemProduto = filePath;
+                imgEdiProduto.ImageLocation = imagemProduto;
+            }
         }
     }
 }

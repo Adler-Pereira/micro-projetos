@@ -13,6 +13,7 @@ namespace PontoDeVenda
     public partial class FormCadProduto : Form
     {
         private Form1 formPrincipal;
+        private string imagemProduto;
         public FormCadProduto(Form1 formPrincipal)
         {
             InitializeComponent();
@@ -29,7 +30,7 @@ namespace PontoDeVenda
 
             produto.Nome = txtNomeProduto.Text;
             produto.Preco = txtPrecoProduto.Value;
-            produto.Imagem = txtImgProduto.Text;
+            produto.Imagem = imagemProduto;
             produto.Descricao = txtDescProduto.Text;
 
             formPrincipal.AdicionarProduto(produto);
@@ -39,7 +40,8 @@ namespace PontoDeVenda
 
         private void txtImgProduto_TextChanged(object sender, EventArgs e)
         {
-            imgCadProduto.ImageLocation = txtImgProduto.Text;
+            imagemProduto = txtImgProduto.Text;
+            imgCadProduto.ImageLocation = imagemProduto;
         }
 
         private void btImagem_Click(object sender, EventArgs e)
@@ -50,7 +52,8 @@ namespace PontoDeVenda
             {
                 string filePath = openFileDialog.FileName;
 
-                imgCadProduto.ImageLocation = filePath;
+                imagemProduto = filePath;
+                imgCadProduto.ImageLocation = imagemProduto;
             }
         }
 

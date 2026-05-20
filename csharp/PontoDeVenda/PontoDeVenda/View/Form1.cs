@@ -30,10 +30,15 @@ namespace PontoDeVenda
             Produtos.Add(produto);
         }
 
+        public void EditarProduto(Produto prodEditado, Produto prodAntigo)
+        {
+            Produtos[prodAntigo.Id] = prodEditado;
+        }
+
         private void btEdiProduto_Click(object sender, EventArgs e)
         {
-            FormEdiProduto formEdiProduto = new FormEdiProduto(this);
-            formEdiProduto.ShowDialog();
+            FormEdiListProduto formEdiListProduto = new FormEdiListProduto(this);
+            formEdiListProduto.ShowDialog();
         }
     }
 }
