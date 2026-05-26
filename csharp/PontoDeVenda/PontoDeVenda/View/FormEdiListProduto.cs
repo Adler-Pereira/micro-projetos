@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PontoDeVenda.Service;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -28,7 +29,7 @@ namespace PontoDeVenda.View
         public void CarregarPagina()
         {
             listViewProduto.Items.Clear();
-            foreach (Produto produto in formPrincipal.Produtos)
+            foreach (Produto produto in ProdutoRepository.GetProdutos())
             {
                 ListViewItem item = new ListViewItem(Convert.ToString(produto.Id));
                 item.SubItems.Add(produto.Nome);

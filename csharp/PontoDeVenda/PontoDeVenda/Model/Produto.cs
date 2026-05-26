@@ -8,7 +8,7 @@ namespace PontoDeVenda
 {
     public class Produto
     {
-        private static int numProdutos;
+        public static int numProdutos { get; set; }
         public int Id { get; set; }
         public string Nome { get; set; }
         public decimal Preco { get; set; }

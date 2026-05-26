@@ -1,2 +1,3 @@
-1;Sabão Ypê;3;Sabão muito bom compra pfv;C:\Users\adler.lima\Pictures\Paint\simplificado-metodos-de-acesso.png
-2;Shampoo Seda;17;Shampoo que deixa o cabelo bonito;C:\Users\adler.lima\Pictures\Paint\abas-metodos-de-acesso.png
+1;Sabão em pó;15;;
+2;Vassoura;4;;
+3;adadsad;6;;
