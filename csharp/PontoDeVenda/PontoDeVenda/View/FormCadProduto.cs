@@ -37,7 +37,7 @@ namespace PontoDeVenda
 
             formPrincipal.AdicionarProduto(produto);
 
-            ProdutoRepository.RegistrarProduto(produto);
+            ProdutoRepository.AddProduto(produto);
 
             this.Close();
         }

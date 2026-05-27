@@ -1,9 +1,11 @@
-﻿using PontoDeVenda.View;
+﻿using PontoDeVenda.Service;
+using PontoDeVenda.View;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -39,6 +41,11 @@ namespace PontoDeVenda
         {
             FormEdiListProduto formEdiListProduto = new FormEdiListProduto(this);
             formEdiListProduto.ShowDialog();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Produto.numProdutos = ProdutoRepository.GetLastProduto().Id;
         }
     }
 }

@@ -1,3 +1,0 @@
-1;Sabão em pó;15;;
-2;Vassoura;4;;
-3;adadsad;6;;
