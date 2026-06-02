@@ -43,6 +43,7 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.btExcluir = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.txtPrecoProduto)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgEdiProduto)).BeginInit();
             this.tabControl1.SuspendLayout();
@@ -137,22 +138,25 @@
             // 
             // btConfEdicao
             // 
+            this.btConfEdicao.BackColor = System.Drawing.Color.DarkOliveGreen;
             this.btConfEdicao.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btConfEdicao.Location = new System.Drawing.Point(536, 319);
+            this.btConfEdicao.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btConfEdicao.ForeColor = System.Drawing.Color.White;
+            this.btConfEdicao.Location = new System.Drawing.Point(538, 382);
             this.btConfEdicao.Name = "btConfEdicao";
             this.btConfEdicao.Size = new System.Drawing.Size(75, 23);
             this.btConfEdicao.TabIndex = 8;
             this.btConfEdicao.Text = "Confirmar";
-            this.btConfEdicao.UseVisualStyleBackColor = true;
+            this.btConfEdicao.UseVisualStyleBackColor = false;
             this.btConfEdicao.Click += new System.EventHandler(this.btConfEdicao_Click);
             // 
             // btCancEdicao
             // 
-            this.btCancEdicao.BackColor = System.Drawing.Color.Maroon;
+            this.btCancEdicao.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btCancEdicao.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btCancEdicao.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btCancEdicao.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btCancEdicao.Location = new System.Drawing.Point(413, 318);
+            this.btCancEdicao.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btCancEdicao.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btCancEdicao.Location = new System.Drawing.Point(413, 382);
             this.btCancEdicao.Name = "btCancEdicao";
             this.btCancEdicao.Size = new System.Drawing.Size(75, 23);
             this.btCancEdicao.TabIndex = 9;
@@ -207,12 +211,27 @@
             this.tabPage2.Text = "Anexo";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // btExcluir
+            // 
+            this.btExcluir.BackColor = System.Drawing.Color.Maroon;
+            this.btExcluir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btExcluir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btExcluir.ForeColor = System.Drawing.Color.White;
+            this.btExcluir.Location = new System.Drawing.Point(49, 382);
+            this.btExcluir.Name = "btExcluir";
+            this.btExcluir.Size = new System.Drawing.Size(75, 23);
+            this.btExcluir.TabIndex = 12;
+            this.btExcluir.Text = "Excluir";
+            this.btExcluir.UseVisualStyleBackColor = false;
+            this.btExcluir.Click += new System.EventHandler(this.btExcluir_Click);
+            // 
             // FormEdiProduto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ClientSize = new System.Drawing.Size(664, 381);
+            this.ClientSize = new System.Drawing.Size(664, 429);
+            this.Controls.Add(this.btExcluir);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.btCancEdicao);
             this.Controls.Add(this.btConfEdicao);
@@ -256,5 +275,6 @@
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.Button btExcluir;
     }
 }

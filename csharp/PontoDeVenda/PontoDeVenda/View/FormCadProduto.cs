@@ -27,7 +27,9 @@ namespace PontoDeVenda
         private void btConfCadastro_Click(object sender, EventArgs e)
         {
             Produto produto = new Produto();
+            int indiceUltimoProd = formPrincipal.Produtos.Count - 1;
 
+            produto.Id = formPrincipal.Produtos[indiceUltimoProd].Id+1;
             produto.Nome = txtNomeProduto.Text;
             produto.Preco = txtPrecoProduto.Value;
             produto.Imagem = imagemProduto;

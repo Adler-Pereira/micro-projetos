@@ -41,8 +41,8 @@ namespace PontoDeVenda.View
 
         private void listViewProduto_DoubleClick(object sender, EventArgs e)
         {
-            int indiceProduto = Convert.ToInt32(listViewProduto.FocusedItem.Text);
-            ProdSelecionado = formPrincipal.Produtos[indiceProduto - 1];
+            int indiceProduto = Convert.ToInt32(listViewProduto.FocusedItem.Index);
+            ProdSelecionado = formPrincipal.Produtos[indiceProduto];
 
             FormEdiProduto formEdiProduto = new FormEdiProduto(this.formPrincipal, this);
             formEdiProduto.ShowDialog();

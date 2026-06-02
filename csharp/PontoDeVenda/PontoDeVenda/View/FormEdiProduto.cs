@@ -22,6 +22,18 @@ namespace PontoDeVenda.View
             this.formListProduto = formListProduto;
         }
 
+        private void btExcluir_Click(object sender, EventArgs e)
+        {
+            formPrincipal.Produtos.Remove(formListProduto.ProdSelecionado);
+            formListProduto.CarregarPagina();
+            this.Close();
+        }
+
+        private void btCancEdicao_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
         private void btConfEdicao_Click(object sender, EventArgs e)
         {
 
@@ -42,11 +54,6 @@ namespace PontoDeVenda.View
             txtDescProduto.Text = formListProduto.ProdSelecionado.Descricao;
 
             imgEdiProduto.ImageLocation = formListProduto.ProdSelecionado.Imagem;
-        }
-
-        private void btCancEdicao_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
 
         private void txtImgProduto_TextChanged(object sender, EventArgs e)

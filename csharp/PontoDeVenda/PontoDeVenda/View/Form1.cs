@@ -56,8 +56,6 @@ namespace PontoDeVenda
                         produto.Descricao,
                         produto.Imagem
                     );
-
-                    
                 }
             }
         }
