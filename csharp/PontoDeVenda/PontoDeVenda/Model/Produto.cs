@@ -8,7 +8,7 @@ namespace PontoDeVenda
 {
     public class Produto
     {
-        public static int numProdutos { get; set; }
+        private static int numProdutos;
         public int Id { get; set; }
         public string Nome { get; set; }
         public decimal Preco { get; set; }
@@ -19,6 +19,14 @@ namespace PontoDeVenda
         {
             Produto.numProdutos++;
             this.Id = numProdutos;
+        }
+
+        public Produto(int id, string nome, decimal preco, string descricao, string imagem) : this()
+        {
+            Nome = nome;
+            Preco = preco;
+            Descricao = descricao;
+            Imagem = imagem;
         }
     }
 }

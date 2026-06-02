@@ -1,4 +1,0 @@
-1;Sabão em pó;15;;
-2;Vassoura;4;;
-3;Pasta de Dente Colgate;5;Recomendado de 9 a cada 10 dentistas.;
-4;Whey Protein;15;hihihi;C:\Users\adler.lima\Pictures\Paint\debug-com-pulo-automatico.png

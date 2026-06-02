@@ -1,5 +1,4 @@
-﻿using PontoDeVenda.Service;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -29,7 +28,7 @@ namespace PontoDeVenda.View
         public void CarregarPagina()
         {
             listViewProduto.Items.Clear();
-            foreach (Produto produto in ProdutoRepository.GetProdutos())
+            foreach (Produto produto in formPrincipal.Produtos)
             {
                 ListViewItem item = new ListViewItem(Convert.ToString(produto.Id));
                 item.SubItems.Add(produto.Nome);
@@ -43,7 +42,6 @@ namespace PontoDeVenda.View
         private void listViewProduto_DoubleClick(object sender, EventArgs e)
         {
             int indiceProduto = Convert.ToInt32(listViewProduto.FocusedItem.Text);
-
             ProdSelecionado = formPrincipal.Produtos[indiceProduto - 1];
 
             FormEdiProduto formEdiProduto = new FormEdiProduto(this.formPrincipal, this);

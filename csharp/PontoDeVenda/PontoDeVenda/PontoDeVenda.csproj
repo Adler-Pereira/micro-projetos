@@ -48,7 +48,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Service\ProdutoRepository.cs" />
     <Compile Include="View\FormCadProduto.cs">
       <SubType>Form</SubType>
     </Compile>

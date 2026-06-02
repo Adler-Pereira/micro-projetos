@@ -1,5 +1,4 @@
-﻿using PontoDeVenda.Service;
-using PontoDeVenda.View;
+﻿using PontoDeVenda.View;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -43,10 +42,42 @@ namespace PontoDeVenda
             formEdiListProduto.ShowDialog();
         }
 
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            using (Stream saida = File.Open("produtos.svg", FileMode.Create))
+            using (StreamWriter escritor = new StreamWriter(saida))
+            {
+                foreach (var produto in Produtos)
+                {
+                    escritor.WriteLine("{0};{1};{2};{3};{4}",
+                        produto.Id,
+                        produto.Nome,
+                        produto.Preco,
+                        produto.Descricao,
+                        produto.Imagem
+                    );
+
+                    
+                }
+            }
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
-            Produtos = ProdutoRepository.GetProdutos();
-            Produto.numProdutos = ProdutoRepository.GetLastProduto().Id;
+            using (Stream entrada = File.Open("produtos.svg", FileMode.Open))
+            using (StreamReader leitor = new StreamReader(entrada))
+            {
+                while (true)
+                {
+                    string linha = leitor.ReadLine();
+
+                    if (linha == null) break;
+
+                    string[] dadosProduto = linha.Split(';');
+
+                    Produtos.Add(new Produto(int.Parse(dadosProduto[0]), dadosProduto[1], decimal.Parse(dadosProduto[2]), dadosProduto[3], dadosProduto[4]));
+                }
+            }
         }
     }
 }

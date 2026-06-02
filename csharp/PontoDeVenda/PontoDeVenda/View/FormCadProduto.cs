@@ -1,10 +1,8 @@
-﻿using PontoDeVenda.Service;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -36,8 +34,6 @@ namespace PontoDeVenda
             produto.Descricao = txtDescProduto.Text;
 
             formPrincipal.AdicionarProduto(produto);
-
-            ProdutoRepository.AddProduto(produto);
 
             this.Close();
         }
