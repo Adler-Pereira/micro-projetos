@@ -59,5 +59,15 @@ namespace PontoDeVenda.Service
             List<Produto> listaProdutos = GetProdutos();
             return listaProdutos[listaProdutos.Count - 1];
         }
+
+        public static void AtualizarProduto(Produto produto)
+        {
+            using (Stream dbProduto = File.Open("dbproduto.txt", FileMode.Open))
+            using (StreamWriter streamWriter = new StreamWriter(dbProduto))
+            {
+
+                AddProduto(produto);
+            }
+        }
     }
 }

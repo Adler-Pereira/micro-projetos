@@ -3,48 +3,48 @@
   "WorkspaceRootPath": "C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|c:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\pontodevenda\\pontodevenda\\service\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|solutionrelative:pontodevenda\\service\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\pontodevenda\\view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|solutionrelative:pontodevenda\\view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\pontodevenda\\view\\formedilistproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|solutionrelative:pontodevenda\\view\\formedilistproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\pontodevenda\\view\\formcadproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|solutionrelative:pontodevenda\\view\\formcadproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\pontodevenda\\model\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|solutionrelative:pontodevenda\\model\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\pontodevenda\\view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|solutionrelative:pontodevenda\\view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\pontodevenda\\view\\formediproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|solutionrelative:pontodevenda\\view\\formediproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|c:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\pontodevenda\\pontodevenda\\service\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|solutionrelative:pontodevenda\\service\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\pontodevenda\\view\\formediproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|solutionrelative:pontodevenda\\view\\formediproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\pontodevenda\\view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|solutionrelative:pontodevenda\\view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\pontodevenda\\view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|solutionrelative:pontodevenda\\view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\pontodevenda\\model\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|solutionrelative:pontodevenda\\model\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\pontodevenda\\model\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|solutionrelative:pontodevenda\\model\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\pontodevenda\\view\\formedilistproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|solutionrelative:pontodevenda\\view\\formedilistproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\pontodevenda\\model\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|solutionrelative:pontodevenda\\model\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\pontodevenda\\view\\formcadproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|solutionrelative:pontodevenda\\view\\formcadproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\pontodevenda\\model\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|solutionrelative:pontodevenda\\model\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\pontodevenda\\model\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|solutionrelative:pontodevenda\\model\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E857AF60-A12A-47DC-B9AB-6138317A9295}|PontoDeVenda\\PontoDeVenda.csproj|C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\pontodevenda\\model\\venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,13 +66,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ProdutoRepository.cs",
               "DocumentMoniker": "C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\PontoDeVenda\\Service\\ProdutoRepository.cs",
               "RelativeDocumentMoniker": "PontoDeVenda\\Service\\ProdutoRepository.cs",
               "ToolTip": "C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\PontoDeVenda\\Service\\ProdutoRepository.cs",
               "RelativeToolTip": "PontoDeVenda\\Service\\ProdutoRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwA0AAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-26T16:43:34.336Z",
               "EditorCaption": ""
@@ -80,40 +80,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\PontoDeVenda\\View\\Form1.cs",
-              "RelativeDocumentMoniker": "PontoDeVenda\\View\\Form1.cs",
-              "ToolTip": "C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\PontoDeVenda\\View\\Form1.cs",
-              "RelativeToolTip": "PontoDeVenda\\View\\Form1.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAswC8AAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T16:36:07.061Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormEdiListProduto.cs",
-              "DocumentMoniker": "C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\PontoDeVenda\\View\\FormEdiListProduto.cs",
-              "RelativeDocumentMoniker": "PontoDeVenda\\View\\FormEdiListProduto.cs",
-              "ToolTip": "C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\PontoDeVenda\\View\\FormEdiListProduto.cs",
-              "RelativeToolTip": "PontoDeVenda\\View\\FormEdiListProduto.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAhwC0AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T17:44:49.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "FormEdiProduto.cs",
               "DocumentMoniker": "C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\PontoDeVenda\\View\\FormEdiProduto.cs",
               "RelativeDocumentMoniker": "PontoDeVenda\\View\\FormEdiProduto.cs",
               "ToolTip": "C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\PontoDeVenda\\View\\FormEdiProduto.cs",
               "RelativeToolTip": "PontoDeVenda\\View\\FormEdiProduto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-20T15:15:24.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\PontoDeVenda\\View\\Form1.cs",
+              "RelativeDocumentMoniker": "PontoDeVenda\\View\\Form1.cs",
+              "ToolTip": "C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\PontoDeVenda\\View\\Form1.cs",
+              "RelativeToolTip": "PontoDeVenda\\View\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T16:36:07.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormEdiListProduto.cs",
+              "DocumentMoniker": "C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\PontoDeVenda\\View\\FormEdiListProduto.cs",
+              "RelativeDocumentMoniker": "PontoDeVenda\\View\\FormEdiListProduto.cs",
+              "ToolTip": "C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\PontoDeVenda\\View\\FormEdiListProduto.cs",
+              "RelativeToolTip": "PontoDeVenda\\View\\FormEdiListProduto.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAxwBwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T17:44:49.917Z",
               "EditorCaption": ""
             },
             {
@@ -130,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Produto.cs",
               "DocumentMoniker": "C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\PontoDeVenda\\Model\\Produto.cs",
               "RelativeDocumentMoniker": "PontoDeVenda\\Model\\Produto.cs",
@@ -138,8 +137,7 @@
               "RelativeToolTip": "PontoDeVenda\\Model\\Produto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T14:37:11.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-14T14:37:11.144Z"
             },
             {
               "$type": "Document",
@@ -155,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\PontoDeVenda\\Model\\Cliente.cs",
               "RelativeDocumentMoniker": "PontoDeVenda\\Model\\Cliente.cs",
@@ -167,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "Pessoa.cs",
               "DocumentMoniker": "C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\PontoDeVenda\\Model\\Pessoa.cs",
               "RelativeDocumentMoniker": "PontoDeVenda\\Model\\Pessoa.cs",
@@ -179,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "FormEdiProduto.cs [Design]",
               "DocumentMoniker": "C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\PontoDeVenda\\View\\FormEdiProduto.cs",
               "RelativeDocumentMoniker": "PontoDeVenda\\View\\FormEdiProduto.cs",
@@ -191,16 +189,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "FormCadProduto.cs",
               "DocumentMoniker": "C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\PontoDeVenda\\View\\FormCadProduto.cs",
               "RelativeDocumentMoniker": "PontoDeVenda\\View\\FormCadProduto.cs",
               "ToolTip": "C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\PontoDeVenda\\View\\FormCadProduto.cs",
               "RelativeToolTip": "PontoDeVenda\\View\\FormCadProduto.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwCcAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAACUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T16:42:57.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-14T16:42:57.531Z"
             },
             {
               "$type": "Document",
@@ -211,8 +208,7 @@
               "ToolTip": "C:\\dev\\estudos\\csharp\\micro-projetos\\csharp\\PontoDeVenda\\PontoDeVenda\\View\\Form1.cs [Design]",
               "RelativeToolTip": "PontoDeVenda\\View\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T14:33:32.194Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-05-14T14:33:32.194Z"
             }
           ]
         }

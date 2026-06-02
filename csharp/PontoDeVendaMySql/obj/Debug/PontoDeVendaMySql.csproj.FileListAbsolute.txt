@@ -1,0 +1,10 @@
+C:\dev\estudos\csharp\micro-projetos\csharp\PontoDeVendaMySql\bin\Debug\PontoDeVendaMySql.exe.config
+C:\dev\estudos\csharp\micro-projetos\csharp\PontoDeVendaMySql\bin\Debug\PontoDeVendaMySql.exe
+C:\dev\estudos\csharp\micro-projetos\csharp\PontoDeVendaMySql\bin\Debug\PontoDeVendaMySql.pdb
+C:\dev\estudos\csharp\micro-projetos\csharp\PontoDeVendaMySql\obj\Debug\PontoDeVendaMySql.csproj.AssemblyReference.cache
+C:\dev\estudos\csharp\micro-projetos\csharp\PontoDeVendaMySql\obj\Debug\PontoDeVendaMySql.Form1.resources
+C:\dev\estudos\csharp\micro-projetos\csharp\PontoDeVendaMySql\obj\Debug\PontoDeVendaMySql.Properties.Resources.resources
+C:\dev\estudos\csharp\micro-projetos\csharp\PontoDeVendaMySql\obj\Debug\PontoDeVendaMySql.csproj.GenerateResource.cache
+C:\dev\estudos\csharp\micro-projetos\csharp\PontoDeVendaMySql\obj\Debug\PontoDeVendaMySql.csproj.CoreCompileInputs.cache
+C:\dev\estudos\csharp\micro-projetos\csharp\PontoDeVendaMySql\obj\Debug\PontoDeVendaMySql.exe
+C:\dev\estudos\csharp\micro-projetos\csharp\PontoDeVendaMySql\obj\Debug\PontoDeVendaMySql.pdb

@@ -45,6 +45,7 @@ namespace PontoDeVenda
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            Produtos = ProdutoRepository.GetProdutos();
             Produto.numProdutos = ProdutoRepository.GetLastProduto().Id;
         }
     }

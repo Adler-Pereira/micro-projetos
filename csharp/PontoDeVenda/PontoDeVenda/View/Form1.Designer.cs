@@ -114,9 +114,10 @@
             this.panel1.Controls.Add(this.btEdiCategoria);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.btCadCategoria);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(141, 452);
+            this.panel1.Size = new System.Drawing.Size(141, 450);
             this.panel1.TabIndex = 12;
             // 
             // btEdiCategoria
