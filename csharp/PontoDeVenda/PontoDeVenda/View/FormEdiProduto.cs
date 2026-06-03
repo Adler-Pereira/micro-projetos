@@ -24,9 +24,18 @@ namespace PontoDeVenda.View
 
         private void btExcluir_Click(object sender, EventArgs e)
         {
-            formPrincipal.Produtos.Remove(formListProduto.ProdSelecionado);
-            formListProduto.CarregarPagina();
-            this.Close();
+            var result = MessageBox.Show("Tem certeza que deseja remover o produto?",
+                "Confirmação de exclusão",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question
+            );
+
+            if (result == DialogResult.Yes)
+            {
+                formPrincipal.Produtos.Remove(formListProduto.ProdSelecionado);
+                formListProduto.CarregarPagina();
+                this.Close();
+            }
         }
 
         private void btCancEdicao_Click(object sender, EventArgs e)
@@ -36,7 +45,6 @@ namespace PontoDeVenda.View
 
         private void btConfEdicao_Click(object sender, EventArgs e)
         {
-
             formListProduto.ProdSelecionado.Nome = txtNomeProduto.Text;
             formListProduto.ProdSelecionado.Preco = txtPrecoProduto.Value;
             formListProduto.ProdSelecionado.Imagem = imagemProduto;
