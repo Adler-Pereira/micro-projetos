@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace PontoDeVenda.Model
 {
-    class Cliente : Pessoa
+    public class Cliente : PessoaFisica
     {
-        public decimal ValCredito { get; set; }
+        public decimal Credito { get; set; }
+        public string Observacao { get; set; }
     }
 }

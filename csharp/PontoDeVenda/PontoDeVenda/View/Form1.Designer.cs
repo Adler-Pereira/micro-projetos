@@ -35,9 +35,9 @@
             this.btEdiProduto = new System.Windows.Forms.Button();
             this.btEdiCliente = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btEdiCategoria = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
             this.btCadCategoria = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.btEdiCategoria = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.btCadVenda = new System.Windows.Forms.Button();
             this.btEdiVenda = new System.Windows.Forms.Button();
@@ -75,6 +75,7 @@
             this.btCadCliente.TabIndex = 4;
             this.btCadCliente.Text = "Cadastro";
             this.btCadCliente.UseVisualStyleBackColor = true;
+            this.btCadCliente.Click += new System.EventHandler(this.btCadCliente_Click);
             // 
             // btCadProduto
             // 
@@ -111,23 +112,23 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.panel1.Controls.Add(this.btEdiCategoria);
-            this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.btCadCategoria);
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.btEdiCategoria);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(141, 452);
             this.panel1.TabIndex = 12;
             // 
-            // btEdiCategoria
+            // btCadCategoria
             // 
-            this.btEdiCategoria.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btEdiCategoria.Location = new System.Drawing.Point(0, 357);
-            this.btEdiCategoria.Name = "btEdiCategoria";
-            this.btEdiCategoria.Size = new System.Drawing.Size(141, 23);
-            this.btEdiCategoria.TabIndex = 3;
-            this.btEdiCategoria.Text = "Cadastro";
-            this.btEdiCategoria.UseVisualStyleBackColor = true;
+            this.btCadCategoria.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btCadCategoria.Location = new System.Drawing.Point(0, 357);
+            this.btCadCategoria.Name = "btCadCategoria";
+            this.btCadCategoria.Size = new System.Drawing.Size(141, 23);
+            this.btCadCategoria.TabIndex = 3;
+            this.btCadCategoria.Text = "Cadastro";
+            this.btCadCategoria.UseVisualStyleBackColor = true;
             // 
             // label4
             // 
@@ -140,15 +141,15 @@
             this.label4.TabIndex = 10;
             this.label4.Text = "Categorias";
             // 
-            // btCadCategoria
+            // btEdiCategoria
             // 
-            this.btCadCategoria.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btCadCategoria.Location = new System.Drawing.Point(0, 377);
-            this.btCadCategoria.Name = "btCadCategoria";
-            this.btCadCategoria.Size = new System.Drawing.Size(141, 23);
-            this.btCadCategoria.TabIndex = 7;
-            this.btCadCategoria.Text = "Edição";
-            this.btCadCategoria.UseVisualStyleBackColor = true;
+            this.btEdiCategoria.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btEdiCategoria.Location = new System.Drawing.Point(0, 377);
+            this.btEdiCategoria.Name = "btEdiCategoria";
+            this.btEdiCategoria.Size = new System.Drawing.Size(141, 23);
+            this.btEdiCategoria.TabIndex = 7;
+            this.btEdiCategoria.Text = "Edição";
+            this.btEdiCategoria.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -218,9 +219,9 @@
         private System.Windows.Forms.Button btEdiProduto;
         private System.Windows.Forms.Button btEdiCliente;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button btEdiCategoria;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btCadCategoria;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btEdiCategoria;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btCadVenda;
         private System.Windows.Forms.Button btEdiVenda;

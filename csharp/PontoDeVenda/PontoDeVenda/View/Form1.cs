@@ -77,5 +77,11 @@ namespace PontoDeVenda
                 }
             }
         }
+
+        private void btCadCliente_Click(object sender, EventArgs e)
+        {
+            FormCadCliente formCadCliente = new FormCadCliente();
+            formCadCliente.ShowDialog();
+        }
     }
 }
