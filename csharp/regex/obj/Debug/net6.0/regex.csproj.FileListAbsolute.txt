@@ -1,0 +1,15 @@
+C:\dev\estudos\csharp\micro-projetos\csharp\regex\bin\Debug\net6.0\regex.exe
+C:\dev\estudos\csharp\micro-projetos\csharp\regex\bin\Debug\net6.0\regex.deps.json
+C:\dev\estudos\csharp\micro-projetos\csharp\regex\bin\Debug\net6.0\regex.runtimeconfig.json
+C:\dev\estudos\csharp\micro-projetos\csharp\regex\bin\Debug\net6.0\regex.dll
+C:\dev\estudos\csharp\micro-projetos\csharp\regex\bin\Debug\net6.0\regex.pdb
+C:\dev\estudos\csharp\micro-projetos\csharp\regex\obj\Debug\net6.0\regex.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\estudos\csharp\micro-projetos\csharp\regex\obj\Debug\net6.0\regex.AssemblyInfoInputs.cache
+C:\dev\estudos\csharp\micro-projetos\csharp\regex\obj\Debug\net6.0\regex.AssemblyInfo.cs
+C:\dev\estudos\csharp\micro-projetos\csharp\regex\obj\Debug\net6.0\regex.csproj.CoreCompileInputs.cache
+C:\dev\estudos\csharp\micro-projetos\csharp\regex\obj\Debug\net6.0\regex.sourcelink.json
+C:\dev\estudos\csharp\micro-projetos\csharp\regex\obj\Debug\net6.0\regex.dll
+C:\dev\estudos\csharp\micro-projetos\csharp\regex\obj\Debug\net6.0\refint\regex.dll
+C:\dev\estudos\csharp\micro-projetos\csharp\regex\obj\Debug\net6.0\regex.pdb
+C:\dev\estudos\csharp\micro-projetos\csharp\regex\obj\Debug\net6.0\regex.genruntimeconfig.cache
+C:\dev\estudos\csharp\micro-projetos\csharp\regex\obj\Debug\net6.0\ref\regex.dll

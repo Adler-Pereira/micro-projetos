@@ -1,0 +1,15 @@
+C:\dev\estudos\csharp\micro-projetos\csharp\regex\bin\Debug\net6.0\cpf.exe
+C:\dev\estudos\csharp\micro-projetos\csharp\regex\bin\Debug\net6.0\cpf.deps.json
+C:\dev\estudos\csharp\micro-projetos\csharp\regex\bin\Debug\net6.0\cpf.runtimeconfig.json
+C:\dev\estudos\csharp\micro-projetos\csharp\regex\bin\Debug\net6.0\cpf.dll
+C:\dev\estudos\csharp\micro-projetos\csharp\regex\bin\Debug\net6.0\cpf.pdb
+C:\dev\estudos\csharp\micro-projetos\csharp\regex\obj\Debug\net6.0\cpf.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\estudos\csharp\micro-projetos\csharp\regex\obj\Debug\net6.0\cpf.AssemblyInfoInputs.cache
+C:\dev\estudos\csharp\micro-projetos\csharp\regex\obj\Debug\net6.0\cpf.AssemblyInfo.cs
+C:\dev\estudos\csharp\micro-projetos\csharp\regex\obj\Debug\net6.0\cpf.csproj.CoreCompileInputs.cache
+C:\dev\estudos\csharp\micro-projetos\csharp\regex\obj\Debug\net6.0\cpf.sourcelink.json
+C:\dev\estudos\csharp\micro-projetos\csharp\regex\obj\Debug\net6.0\cpf.dll
+C:\dev\estudos\csharp\micro-projetos\csharp\regex\obj\Debug\net6.0\refint\cpf.dll
+C:\dev\estudos\csharp\micro-projetos\csharp\regex\obj\Debug\net6.0\cpf.pdb
+C:\dev\estudos\csharp\micro-projetos\csharp\regex\obj\Debug\net6.0\cpf.genruntimeconfig.cache
+C:\dev\estudos\csharp\micro-projetos\csharp\regex\obj\Debug\net6.0\ref\cpf.dll

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PontoDeVenda.Model
 {
-    internal class PessoaJuridica
+    internal class PessoaJuridica : Endereco
     {
         public int Id { get; set; }
         public string Cnpj { get; set; }

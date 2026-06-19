@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E857AF60-A12A-47DC-B9AB-6138317A9295}</ProjectGuid>
+    <ProjectGuid>{69E09DF5-8878-4933-9FB8-E78C80F9D255}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>PontoDeVenda</RootNamespace>
-    <AssemblyName>PontoDeVenda</AssemblyName>
+    <RootNamespace>bibliotecaSQLServer</RootNamespace>
+    <AssemblyName>bibliotecaSQLServer</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,9 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
-    </Reference>
+    <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -48,54 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\Endereco.cs" />
-    <Compile Include="Model\PessoaJuridica.cs" />
-    <Compile Include="View\FormCadCliente.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\FormCadCliente.Designer.cs">
-      <DependentUpon>FormCadCliente.cs</DependentUpon>
-    </Compile>
-    <Compile Include="View\FormCadProduto.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\FormCadProduto.Designer.cs">
-      <DependentUpon>FormCadProduto.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Model\Categoria.cs" />
-    <Compile Include="View\Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\Form1.Designer.cs">
+    <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Model\Cliente.cs" />
-    <Compile Include="Model\PessoaFisica.cs" />
-    <Compile Include="Model\Produto.cs" />
-    <Compile Include="Model\Venda.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="View\FormEdiListProduto.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\FormEdiListProduto.Designer.cs">
-      <DependentUpon>FormEdiListProduto.cs</DependentUpon>
-    </Compile>
-    <Compile Include="View\FormEdiProduto.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\FormEdiProduto.Designer.cs">
-      <DependentUpon>FormEdiProduto.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="View\FormCadCliente.resx">
-      <DependentUpon>FormCadCliente.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View\FormCadProduto.resx">
-      <DependentUpon>FormCadProduto.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -105,12 +63,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="View\FormEdiListProduto.resx">
-      <DependentUpon>FormEdiListProduto.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View\FormEdiProduto.resx">
-      <DependentUpon>FormEdiProduto.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
