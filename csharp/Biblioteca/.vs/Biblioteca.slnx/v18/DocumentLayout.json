@@ -1,0 +1,129 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\dev\\github\\Biblioteca\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{64FC53DC-64AA-49C7-8C2C-1BA229B26798}|Biblioteca.csproj|c:\\dev\\github\\biblioteca\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64FC53DC-64AA-49C7-8C2C-1BA229B26798}|Biblioteca.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64FC53DC-64AA-49C7-8C2C-1BA229B26798}|Biblioteca.csproj|c:\\dev\\github\\biblioteca\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{64FC53DC-64AA-49C7-8C2C-1BA229B26798}|Biblioteca.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64FC53DC-64AA-49C7-8C2C-1BA229B26798}|Biblioteca.csproj|c:\\dev\\github\\biblioteca\\br.com.projeto.model\\editora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64FC53DC-64AA-49C7-8C2C-1BA229B26798}|Biblioteca.csproj|solutionrelative:br.com.projeto.model\\editora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64FC53DC-64AA-49C7-8C2C-1BA229B26798}|Biblioteca.csproj|c:\\dev\\github\\biblioteca\\br.com.projeto.dao\\editoradao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64FC53DC-64AA-49C7-8C2C-1BA229B26798}|Biblioteca.csproj|solutionrelative:br.com.projeto.dao\\editoradao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64FC53DC-64AA-49C7-8C2C-1BA229B26798}|Biblioteca.csproj|c:\\dev\\github\\biblioteca\\br.com.projeto.conexao\\connectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64FC53DC-64AA-49C7-8C2C-1BA229B26798}|Biblioteca.csproj|solutionrelative:br.com.projeto.conexao\\connectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64FC53DC-64AA-49C7-8C2C-1BA229B26798}|Biblioteca.csproj|c:\\dev\\github\\biblioteca\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{64FC53DC-64AA-49C7-8C2C-1BA229B26798}|Biblioteca.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditoraDAO.cs",
+              "DocumentMoniker": "C:\\dev\\github\\Biblioteca\\br.com.projeto.dao\\EditoraDAO.cs",
+              "RelativeDocumentMoniker": "br.com.projeto.dao\\EditoraDAO.cs",
+              "ToolTip": "C:\\dev\\github\\Biblioteca\\br.com.projeto.dao\\EditoraDAO.cs",
+              "RelativeToolTip": "br.com.projeto.dao\\EditoraDAO.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T16:55:51.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Editora.cs",
+              "DocumentMoniker": "C:\\dev\\github\\Biblioteca\\br.com.projeto.model\\Editora.cs",
+              "RelativeDocumentMoniker": "br.com.projeto.model\\Editora.cs",
+              "ToolTip": "C:\\dev\\github\\Biblioteca\\br.com.projeto.model\\Editora.cs",
+              "RelativeToolTip": "br.com.projeto.model\\Editora.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T16:52:56.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\dev\\github\\Biblioteca\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\dev\\github\\Biblioteca\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAjwBwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T16:51:43.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConnectionFactory.cs",
+              "DocumentMoniker": "C:\\dev\\github\\Biblioteca\\br.com.projeto.conexao\\ConnectionFactory.cs",
+              "RelativeDocumentMoniker": "br.com.projeto.conexao\\ConnectionFactory.cs",
+              "ToolTip": "C:\\dev\\github\\Biblioteca\\br.com.projeto.conexao\\ConnectionFactory.cs",
+              "RelativeToolTip": "br.com.projeto.conexao\\ConnectionFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T14:58:51.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\dev\\github\\Biblioteca\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\dev\\github\\Biblioteca\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-07-06T17:36:49.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\dev\\github\\Biblioteca\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\dev\\github\\Biblioteca\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T14:38:41.431Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
